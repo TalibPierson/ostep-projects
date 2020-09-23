@@ -1,3 +1,34 @@
+This will be the central repository we use to collaborate.
+
+For each test we pass, we should commit our code to this repository (after cleanup).
+
+We can commit from our own computers.
+
+We can share the file we are editingusing Teletype for Atom <https://teletype.atom.io/>
+
+You can also have the file open in another editor at the same time.
+
+We could also commit from the repl.it at <https://repl.it/join/pfrzqakq-talibpierson>
+
+But repl.it it slow for both of us since it is web-based and hosted on neither of our computers.
+
+We compile with:
+`cc -o pzip pzip.c -Wall -Wextra -Wpedantic -Werror -pthread -Og`
+
+We want the extra errors and -Og is the best optimization level for debugging.
+
+At least according to the gcc manual.
+
+Below are some links that document pthread:
+
+https://en.wikipedia.org/wiki/POSIX_Threads  
+https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html  
+https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_join.html  
+https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_exit.html  
+https://man7.org/linux/man-pages/man7/pthreads.7.html
+https://man7.org/linux/man-pages/man3/pthread_create.3.html  
+https://man7.org/linux/man-pages/man3/pthread_join.3.html  
+https://man7.org/linux/man-pages/man3/pthread_exit.3.html  
 
 # Parallel Zip
 
